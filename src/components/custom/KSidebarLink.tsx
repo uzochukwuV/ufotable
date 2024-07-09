@@ -1,6 +1,5 @@
-import React from "react";
+
 import { useHover } from '@mantine/hooks';
-import arrowUpRight from  "../../assets/arrow-upright.svg"
 
 function KSidebarLink(props:{title:string, subtitle: string}) {
     const { hovered, ref } = useHover();
