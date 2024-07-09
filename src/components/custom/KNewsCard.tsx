@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function KNewsCard(props: {image: string, text:string}) {
     const {image, text}=props;
