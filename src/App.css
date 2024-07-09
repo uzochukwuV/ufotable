@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Rock+Salt&display=swap');
+
+* {
+  font-family: "Figtree", sans-serif;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.bg-an-red{
+
+  background: rgb(143 29 34 / 0.06);;
+}
+
+.text-an-red{
+
+  color: rgb(143 29 34 / 1);;
+}
+
+.hero {
+  background: url("./assets/hero1.webp");
+
+}
+
+.hero2 {
+  background: url("./assets/her02.webp");
+  background-position: center;
+
+}
+
+.hero2-styled-text {
+  font-family: "Rock Salt", cursive;
+}
